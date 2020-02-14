@@ -212,7 +212,7 @@ public class MarkwonTheme {
      * @since 1.0.5
      */
     public void applyLinkStyle(@NonNull TextPaint paint) {
-        paint.setUnderlineText(true);
+        paint.setUnderlineText(false);
         if (linkColor != 0) {
             paint.setColor(linkColor);
         } else {
@@ -222,7 +222,7 @@ public class MarkwonTheme {
     }
 
     public void applyLinkStyle(@NonNull Paint paint) {
-        paint.setUnderlineText(true);
+        paint.setUnderlineText(false);
         if (linkColor != 0) {
             // by default we will be using text color
             paint.setColor(linkColor);
